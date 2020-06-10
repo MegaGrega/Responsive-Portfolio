@@ -1,0 +1,30 @@
+body{
+    background-color: gainsboro;
+}
+
+img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    }
+
+/* @media screen and (max-width: 980px) {
+    body {
+      background-color: rgb(129, 39, 39);
+    }
+  
+}
+@media screen and (max-width: 768px) {
+    body {
+      background-color: rgb(111, 0, 255);
+    }
+  
+    .container {
+      width: 600px;
+    }
+}
+@media screen and (max-width: 640px) {
+    body {
+      background-color: rgb(0, 250, 33);
+    }
+} */

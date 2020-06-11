@@ -9,7 +9,7 @@ The site scales to the applicable screen size.
 <img src="About me page.PNG"
      alt=""
      style="float: left; margin-right: 10px;" />
-<img src="Contact Page.PNG.PNG"
+<img src="Contact Page.PNG"
      alt=""
      style="float: left; margin-right: 10px;" />
 <img src="Portfolio Page.PNG"

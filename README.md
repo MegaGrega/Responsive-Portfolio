@@ -9,3 +9,4 @@ The site scales to the applicable screen size.
 
 Link to Site
 https://megagrega.github.io/Responsive-Portfolio/portfolio.html
+

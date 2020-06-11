@@ -1,5 +1,6 @@
 body{
-    background-color: #95979F
+    background-color: #95979F;
+    height: 100vh;
 }
 .bg-custom {
   background-color: #30343F
@@ -7,10 +8,10 @@ body{
 .navbar-light .nav-item.active .nav-link,
 .navbar-light .nav-item:focus .nav-link,
 .navbar-light .nav-item:hover .nav-link {
-        color: #ffffff;
+        color: #FAFAFF;
 }
 .nav-link{
-  color: white
+  color: #FAFAFF
 }
 .navbar-brand img {
   height: 40px;
@@ -19,12 +20,15 @@ body{
 
  .container{
     margin-top: 10px;
+    margin-bottom: 10px;
     max-width: 800px;
-    width: 60%
+    width: 60%;
 } 
 .card{
-  background-color: #FAFAFF
+  background-color: #FAFAFF;
 }
+
+
 /* Styling/responsiveness for portfolio icons */
 .portfolio-icon{
   margin-bottom: 10px;
@@ -35,49 +39,56 @@ body{
 
 
 }
-.profile-picture{
-  width: 100%;
-  float: left;
-  padding: 15px;
+.label {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+  color: #FAFAFF;
+  width: 86%;
+  font-weight: bold;
+  background-color:#30343F;
 }
+.profile-picture{
+  padding: 15px;
+  width: 50%;
 
+}
 .footer {
     position: fixed;
-    left: 0;
+    background-color: #30343F;
+    color: white;
+    height: 70px;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
     }
-
 
 /* ---Media Queries -- */
 
-@media (max-width: 992px) {
+@media (max-width: 900px) {
+  .profile-picture{
+    padding: 15px;
+    width:100%
+  
+  }
 
+ .portfolio-icon {
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+} 
+.navbar-brand img {
+      height: 40px;
+      width: 40px;
+      margin: 0px;
 }
-
-@media (max-width: 768px) {
-
-
+}
 @media (max-width: 640px) {
   .container{
     margin-top: 10px;
     width: 100%;
   }
-
-}
-   .portfolio-icon {
-    margin-bottom: 10px;
-    max-width: 100%;
-    height: auto;
-    } 
-    .navbar-brand img {
-      height: 40px;
-      width: 40px;
-      margin: 0px;
-    }
 
 }
 

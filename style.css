@@ -1,8 +1,16 @@
 body{
-    background-color: gainsboro;
+    background-color: #95979F
 }
-.navbar-custom{
-  background-color: rgba(255, 255, 255, 0.753);
+.bg-custom {
+  background-color: #30343F
+}
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+        color: #ffffff;
+}
+.nav-link{
+  color: white
 }
 .navbar-brand img {
   height: 40px;
@@ -11,7 +19,27 @@ body{
 
  .container{
     margin-top: 10px;
+    max-width: 800px;
+    width: 60%
 } 
+.card{
+  background-color: #FAFAFF
+}
+/* Styling/responsiveness for portfolio icons */
+.portfolio-icon{
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+  padding: 3%;
+
+
+}
+.profile-picture{
+  width: 100%;
+  float: left;
+  padding: 15px;
+}
 
 .footer {
     position: fixed;
@@ -24,18 +52,25 @@ body{
     }
 
 
-
 /* ---Media Queries -- */
+
 @media (max-width: 992px) {
 
 }
+
 @media (max-width: 768px) {
 
-}
+
 @media (max-width: 640px) {
-   img {
-    margin-bottom: 10px;
+  .container{
+    margin-top: 10px;
     width: 100%;
+  }
+
+}
+   .portfolio-icon {
+    margin-bottom: 10px;
+    max-width: 100%;
     height: auto;
     } 
     .navbar-brand img {

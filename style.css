@@ -2,6 +2,7 @@ body{
     background-color: #95979F;
     height: 100vh;
 }
+/* Navbar Colors */
 .bg-custom {
   background-color: #30343F
 }
@@ -13,17 +14,19 @@ body{
 .nav-link{
   color: #FAFAFF
 }
+/*Navbar Icon */
 .navbar-brand img {
   height: 40px;
   margin: 0px;
 }
-
+/* Container Spacing */
  .container{
     margin-top: 10px;
     margin-bottom: 10px;
     max-width: 800px;
     width: 60%;
 } 
+/* Card Color */
 .card{
   background-color: #FAFAFF;
 }
@@ -39,6 +42,7 @@ body{
 
 
 }
+/* Labels for portfolio icons - NOT IDEAL but they work for now. */
 .label {
   position: absolute;
   top: 75%;
@@ -46,15 +50,19 @@ body{
   transform: translate( -50%, -50% );
   text-align: center;
   color: #FAFAFF;
-  width: 86%;
+  width: 84%;
   font-weight: bold;
   background-color:#30343F;
+  max-height: 50px;
 }
+/* Profile Picture Look */
 .profile-picture{
   padding: 15px;
   width: 50%;
+  border-radius: 25px;
 
 }
+/* Footer orientation and size */
 .footer {
     position: fixed;
     background-color: #30343F;
@@ -66,24 +74,16 @@ body{
 
 /* ---Media Queries -- */
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   .profile-picture{
     padding: 15px;
     width:100%
   
   }
-
- .portfolio-icon {
-    margin-bottom: 10px;
-    max-width: 100%;
-    height: auto;
-} 
-.navbar-brand img {
-      height: 40px;
-      width: 40px;
-      margin: 0px;
+.label{
+  width:80%;
 }
-}
+} */
 @media (max-width: 640px) {
   .container{
     margin-top: 10px;
